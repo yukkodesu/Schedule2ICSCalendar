@@ -1,0 +1,7 @@
+{
+  "tasks": {
+    "run": "deno run --allow-net main.ts",
+    "compile": "deno compile --allow-net main.ts"
+  },
+  "imports": { "ics": "npm:ics@^3.7.2" }
+}
