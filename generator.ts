@@ -8,3 +8,5 @@ const ticketedUrl = await getTicketedUrl(jSessionId, lt, studentId, password);
 if (!ticketedUrl)
   throw Error("Authentication Error, check your id and password");
 await getJWHtml(ticketedUrl);
+
+// url for schedule grasping is http://jw.hitsz.edu.cn/xszykb/queryxszykbzong
